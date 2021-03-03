@@ -22,7 +22,7 @@ indent() {
   sed -u 's/^/       /'
 }
 
-VERSION="6.4.3"
+VERSION="7.2.0-linux-x86_64"
 INSTALL_DIR="$BUILD_DIR/.heroku/vendor/elasticsearch"
 PROFILE_PATH="$BUILD_DIR/.profile.d/elasticsearch.sh"
 
